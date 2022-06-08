@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px;
+    background: #03a9f4;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.avatar {
+    width: 30%;
+    color: #829985;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.avatar-title {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav-list {
+    align-items: center;
+    display: flex;
+}
+
+.nav-link {
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0 40px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid black;
+    color: #03A9F4;
+}
+
+.main {
+    background: lightblue;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.contact-link {
+    transition: 0.3s;
+}
+
+.contact-link:hover {
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+    .header {
+        flex-wrap: wrap;
+    }
+    .avatar {
+        width: 100%;
+        color: #829985;
+        text-align: center;
+    }
+}
+
+.rss {
+    width: 200px;
+    height: 80px;
+    background-image: url(./assets/img/rs_school.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px 0;
+    background: white;
+}
+
+.contact-info.language .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.contact-info.language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
