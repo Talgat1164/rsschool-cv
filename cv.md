@@ -32,3 +32,22 @@ function twoPlusTwo() {
       return 2 + 2;
 }
 ```
+
+# Education
+
+* **Bachelor, Eurasian National University, Nursultan**
+    * Faculty of Software Engineering. (2025)
+
+
+# Languages
+
+- Kazakh
+- Russian
+## English 
+**A1**
+I try to learn English in every possible way.
+
+<br>
+<br>
+
+[<img align="center" alt="rsschool" width="100px"  src="img/rs_school_js.svg" />](https://rs.school/) 
