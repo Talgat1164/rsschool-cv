@@ -44,3 +44,5 @@ No experience in the IT field yet.
   - Extra School: Frontend Angular
 
 ## English:
+
+A2
