@@ -42,3 +42,5 @@ No experience in the IT field yet.
 - Courses:
   - RS School: Frontend Stage 0
   - Extra School: Frontend Angular
+
+## English:
