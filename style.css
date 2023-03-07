@@ -4,6 +4,12 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 480px) {
@@ -50,6 +56,12 @@ body {
   #contacts li {
     margin-bottom: 10px;
   }
+  .img {
+    padding: 10px;
+  }
+  .img img {
+    border-radius: 10px;
+  }
 }
 
 @media screen and (min-width: 481px) {
@@ -61,6 +73,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    padding-bottom: 0px;
   }
   h1 {
     font-size: 40px;
@@ -83,11 +96,12 @@ body {
   main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 30px;
   }
   h2 {
     font-size: 32px;
-    margin-top: 50px;
+    margin-top: 30px;
+    border-bottom: 2px solid gray;
   }
   ul li {
     font-size: 20px;
@@ -99,5 +113,8 @@ body {
   section ul {
     display: flex;
     flex-direction: column;
+  }
+  .img img {
+    border-radius: 10px;
   }
 }
